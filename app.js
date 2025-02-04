@@ -14,7 +14,14 @@ function agregarAmigo() {
     alert("Por favor, inserte un nombre.");
     return;
   }
-
+  // Si ya se mostró un resultado de sorteo, reiniciar el programa:
+  // - Limpiar el elemento "resultado"
+  // - Reiniciar el array 'amigos'
+  const resultado = document.getElementById("resultado");
+  if (resultado.innerHTML !== "") {
+    resultado.innerHTML = "";
+    amigos = [];
+  }
   // Actualizar el array de amigos añadiendo el nombre usando .push()
   amigos.push(nombre);
 
@@ -56,4 +63,11 @@ function sortearAmigo() {
   // Mostrar el resultado en un elemento HTML 
   const resultado = document.getElementById("resultado");
   resultado.innerHTML = `El amigo secreto es: ${amigoSorteado}`;
+
+  // Borrar el listado de amigos que se muestra en pantalla
+  const lista = document.getElementById("listaAmigos");
+  lista.innerHTML = "";
+
+  // Reiniciar el array para cerrar la sesión actual
+  amigos = [];
 }
