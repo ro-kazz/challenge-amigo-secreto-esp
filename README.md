@@ -9,19 +9,4 @@ Este proyecto es una aplicación web sencilla que permite a los usuarios ingresa
 - **Visualizar la Lista:** Cada nombre ingresado se muestra dinámicamente en una lista en la página.
 - **Sorteo Aleatorio:** Al presionar el botón "Sortear Amigo", se selecciona de manera aleatoria uno de los nombres utilizando `Math.random()` y `Math.floor()`, mostrando el resultado en pantalla.
 
-## Instrucciones de Uso
-
-1. **Clonar o Descargar el Proyecto:**  
-   Descarga los archivos del proyecto o clónalo en tu máquina.
-
-2. **Verificar la Estructura del HTML:**  
-   Asegúrate de que tu archivo HTML incluya los siguientes elementos con sus respectivos identificadores:
-   - Un campo de entrada con `id="nombre"`.
-   - Un botón que invoque la función `agregarAmigo()` para adicionar un nombre.
-   - Una lista `<ul>` con `id="lista"` para mostrar los nombres ingresados.
-   - Un botón que invoque la función `sortearAmigo()` para realizar el sorteo.
-   - Un contenedor (por ejemplo, un `<div>`) con `id="resultado"` para mostrar el nombre sorteado.
-
-3. **Ejecutar la Aplicación:**  
-   Abre el archivo HTML en un navegador para interactuar con la aplicación.
 
