@@ -11,4 +11,4 @@ Este proyecto es una aplicación web sencilla que permite a los usuarios ingresa
 
 ## Link 
 
-En el siguiente link se encuentra el desarrollo del challenge: [text](https://ro-kazz.github.io/challenge-amigo-secreto-esp/)
+En el siguiente link se encuentra el desarrollo del challenge: [Challenge Amigo Secreto](https://ro-kazz.github.io/challenge-amigo-secreto-esp/)
