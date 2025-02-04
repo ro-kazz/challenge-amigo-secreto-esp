@@ -25,7 +25,3 @@ Este proyecto es una aplicación web sencilla que permite a los usuarios ingresa
 3. **Ejecutar la Aplicación:**  
    Abre el archivo HTML en un navegador para interactuar con la aplicación.
 
-## Código JavaScript
-
-El siguiente bloque de código implementa las funcionalidades requeridas, integrando los pasos PRIMERO a CUARTO y utilizando los comandos especificados:
-
