@@ -9,4 +9,6 @@ Este proyecto es una aplicación web sencilla que permite a los usuarios ingresa
 - **Visualizar la Lista:** Cada nombre ingresado se muestra dinámicamente en una lista en la página.
 - **Sorteo Aleatorio:** Al presionar el botón "Sortear Amigo", se selecciona de manera aleatoria uno de los nombres utilizando `Math.random()` y `Math.floor()`, mostrando el resultado en pantalla.
 
+## Link 
 
+En el siguiente link se encuentra el desarrollo del challenge: [text](https://ro-kazz.github.io/challenge-amigo-secreto-esp/)
